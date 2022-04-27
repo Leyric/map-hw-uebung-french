@@ -26,6 +26,11 @@
   <div id="map"></div>
 
   <!-- Insert Javascript (.js) code to create the map -->
+  var map = L.map('map', {
+  center: [41.57, -72.69], // Default latitude and longitude on start
+  zoom: 9,  // Between 1 and 18; decrease to zoom out, increase to zoom in
+  scrollWheelZoom: false
+});
   <script>
 
   // Set up initial map center and zoom level
